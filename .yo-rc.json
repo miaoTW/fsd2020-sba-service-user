@@ -1,0 +1,36 @@
+{
+  "generator-jhipster": {
+    "promptValues": {
+      "packageName": "com.fsd.sba"
+    },
+    "jhipsterVersion": "6.4.1",
+    "applicationType": "microservice",
+    "baseName": "user",
+    "packageName": "com.fsd.sba",
+    "packageFolder": "com/fsd/sba",
+    "serverPort": "8081",
+    "authenticationType": "jwt",
+    "cacheProvider": "no",
+    "websocket": false,
+    "databaseType": "sql",
+    "devDatabaseType": "h2Disk",
+    "prodDatabaseType": "mysql",
+    "searchEngine": false,
+    "messageBroker": false,
+    "serviceDiscoveryType": "eureka",
+    "buildTool": "gradle",
+    "enableSwaggerCodegen": false,
+    "jwtSecretKey": "ZGIwOTNiMjNkZWUzOTQ4ZThiNGVkYjhkMDMxZTQyYmE1YWVkNGVhMDNhMjk1N2U1OGEzN2RjNzc4ZjI0ZDA5NTYxYTJiZmE3MGI3YjQ0NzkxNjcxMmEwYmM0M2E4OWE3NTc3ZjFlYzY0NmI2MDZmMDcyNjlmYTI2YTA1ODA2ZDk=",
+    "embeddableLaunchScript": false,
+    "testFrameworks": [],
+    "jhiPrefix": "jhi",
+    "entitySuffix": "",
+    "dtoSuffix": "DTO",
+    "otherModules": [],
+    "enableTranslation": false,
+    "clientPackageManager": "npm",
+    "blueprints": [],
+    "skipClient": true,
+    "skipUserManagement": true
+  }
+}

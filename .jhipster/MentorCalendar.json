@@ -1,0 +1,31 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "user",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "mId",
+            "fieldType": "Long",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "startDatetime",
+            "fieldType": "Instant"
+        },
+        {
+            "fieldName": "endDatetime",
+            "fieldType": "Instant"
+        }
+    ],
+    "changelogDate": "20191101102106",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceClass",
+    "entityTableName": "mentor_calendar",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination",
+    "microserviceName": "user"
+}

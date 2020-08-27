@@ -1,0 +1,46 @@
+{
+    "fluentMethods": true,
+    "clientRootFolder": "user",
+    "relationships": [],
+    "fields": [
+        {
+            "fieldName": "mId",
+            "fieldType": "Long",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "sId",
+            "fieldType": "Long",
+            "fieldValidateRules": [
+                "required"
+            ]
+        },
+        {
+            "fieldName": "selfRating",
+            "fieldType": "Float"
+        },
+        {
+            "fieldName": "yearsOfExp",
+            "fieldType": "Integer"
+        },
+        {
+            "fieldName": "trainingsDelivered",
+            "fieldType": "String"
+        },
+        {
+            "fieldName": "facilitiesOffered",
+            "fieldType": "String"
+        }
+    ],
+    "changelogDate": "20191101101816",
+    "dto": "no",
+    "searchEngine": false,
+    "service": "serviceClass",
+    "entityTableName": "mentor_skills",
+    "databaseType": "sql",
+    "jpaMetamodelFiltering": false,
+    "pagination": "pagination",
+    "microserviceName": "user"
+}
